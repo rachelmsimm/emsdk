@@ -2713,13 +2713,6 @@ def main(args):
   if not args:
     errlog("Missing command; Type 'emsdk help' to get a list of commands.")
     return 1
-  
-  result = subprocess.run(['node', '-v'], capture_output=True, text=True, check=True)
-        
-  # The result is usually something like "v16.13.0"
-  node_version = result.stdout.strip()
-  print('KT TEST THIS IS THE RIGHT BRANCH')
-  print('USING NODE VERSION:', node_version)
 
   debug_print('emsdk.py running under `%s`' % sys.executable)
   cmd = args.pop(0)
