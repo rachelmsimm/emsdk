@@ -575,13 +575,13 @@
   {
     "version": "upstream-main",
     "bitness": 64,
-    "uses": ["python-3.9.2-nuget-64bit", "llvm-git-main-64bit", "node-20.18.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
+    "uses": ["python-3.9.2-1-nuget-64bit", "llvm-git-main-64bit", "node-20.18.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
     "os": "win"
   },
   {
     "version": "upstream-main",
     "bitness": 64,
-    "uses": ["python-3.9.2-64bit", "llvm-git-main-64bit", "node-20.18.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
+    "uses": ["python-3.9.2-1-64bit", "llvm-git-main-64bit", "node-20.18.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
     "os": "macos"
   },
   {
@@ -615,7 +615,7 @@
   {
     "version": "releases-upstream-%releases-tag%",
     "bitness": 64,
-    "uses": ["node-20.18.0-64bit", "python-3.9.2-64bit", "releases-%releases-tag%-64bit"],
+    "uses": ["node-20.18.0-64bit", "python-3.9.2-1-64bit", "releases-%releases-tag%-64bit"],
     "os": "macos",
     "arch": "x86_64",
     "custom_install_script": "emscripten_npm_install"
@@ -623,7 +623,7 @@
   {
     "version": "releases-upstream-%releases-tag%",
     "bitness": 64,
-    "uses": ["node-20.18.0-64bit", "python-3.9.2-64bit", "releases-%releases-tag%-64bit"],
+    "uses": ["node-20.18.0-64bit", "python-3.9.2-1-64bit", "releases-%releases-tag%-64bit"],
     "os": "macos",
     "arch": "arm64",
     "custom_install_script": "emscripten_npm_install"
@@ -631,7 +631,7 @@
   {
     "version": "releases-fastcomp-%releases-tag%",
     "bitness": 64,
-    "uses": ["node-20.18.0-64bit", "python-3.9.2-nuget-64bit", "java-8.152-64bit", "releases-%releases-tag%-64bit"],
+    "uses": ["node-20.18.0-64bit", "python-3.9.2-1-nuget-64bit", "java-8.152-64bit", "releases-%releases-tag%-64bit"],
     "os": "win",
     "custom_install_script": "emscripten_npm_install"
   },
