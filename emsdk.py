@@ -2263,6 +2263,7 @@ def load_sdk_manifest():
           continue
 
       if is_sdk:
+        print("Processing SDK:" + str(t2))
         if dependencies_exist(t2):
           if not find_sdk(t2.name):
             add_sdk(t2)
