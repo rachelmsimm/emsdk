@@ -617,16 +617,8 @@
   {
     "version": "main",
     "bitness": 64,
-    "uses": ["python-3.9.2-64bit", "llvm-git-main-64bit", "node-15.14.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
-    "os": "macos",
-    "arch": "x86_64"
-  },
-  {
-    "version": "main",
-    "bitness": 64,
     "uses": ["python-3.9.2-64bit", "llvm-git-main-64bit", "node-20.18.0-64bit", "emscripten-main-64bit", "binaryen-main-64bit"],
-    "os": "macos",
-    "arch": "arm64"
+    "os": "macos"
   },
   {
     "version": "main",
