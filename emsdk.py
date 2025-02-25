@@ -151,7 +151,6 @@ elif machine.startswith('arm'):
 else:
   exit_with_error('unknown machine architecture: ' + machine)
 
-
 # Don't saturate all cores to not steal the whole system, but be aggressive.
 CPU_CORES = int(os.getenv('EMSDK_NUM_CORES', max(multiprocessing.cpu_count() - 1, 1)))
 
